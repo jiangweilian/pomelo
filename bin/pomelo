@@ -21,7 +21,7 @@ var fs = require('fs'),
 
 /**
  *  Constant Variables
- */
+ */ 
 var TIME_INIT = 1 * 1000;
 var TIME_KILL_WAIT = 5 * 1000;
 var KILL_CMD_LUX = 'kill -9 `ps -ef|grep node|awk \'{print $2}\'`';
